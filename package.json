@@ -4,7 +4,7 @@
   "description": "How to catch raw packets for review in an discord outage (guild available/unavailable)",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "forever src/index.js"
   },
   "repository": {
     "type": "git",
