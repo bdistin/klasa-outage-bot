@@ -2,7 +2,9 @@ const { Client } = require('klasa');
 const { token } = require('./config.json');
 
 new Client({
-	shardCount: 'auto',
+    shardCount: 'auto',
+    console: { useColor: true },
+    consoleEvents: { debug: true },
 	disabledCorePieces: [
 		'commands',
 		'monitors',
