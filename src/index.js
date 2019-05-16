@@ -13,7 +13,8 @@ new Client({
 		'tasks',
 		'languages',
 		'extendables',
-		'arguments'
+		'arguments',
+		'providers'
 	],
 	disabledEvents: [
 		'GUILD_MEMBER_ADD',
