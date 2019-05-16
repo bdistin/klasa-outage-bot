@@ -3,7 +3,6 @@ const { token } = require('./config.json');
 
 new Client({
 	shardCount: 'auto',
-	prefix: '!',
 	disabledCorePieces: [
 		'commands',
 		'monitors',
